@@ -1,0 +1,1512 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 2,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Arrecifes",
+        "Latitud": -34.0642,
+        "Longitud": -60.0717,
+        "Altura_snm": 71.2,
+        "Sitio": "Arrecifes"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 5,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Azul",
+        "Latitud": -36.7319,
+        "Longitud": -59.8795,
+        "Altura_snm": 121.9,
+        "Sitio": "Azul"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 11,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Campana",
+        "Latitud": -34.2374,
+        "Longitud": -58.9602,
+        "Altura_snm": 150.75,
+        "Sitio": "Campana"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 17,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Chapadmalal",
+        "Latitud": -38.1952,
+        "Longitud": -57.6834,
+        "Altura_snm": 148.9,
+        "Sitio": "Chapadmalal"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 18,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Chascom�s",
+        "Latitud": -35.5866,
+        "Longitud": -57.9658,
+        "Altura_snm": 149.2,
+        "Sitio": "Chascom�s"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 21,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Coronel Brandsen",
+        "Latitud": -35.1194,
+        "Longitud": -58.2455,
+        "Altura_snm": 150.75,
+        "Sitio": "Coronel Brandsen"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 23,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Coronel Suarez",
+        "Latitud": -37.4996,
+        "Longitud": -61.9386,
+        "Altura_snm": 148.9,
+        "Sitio": "Coronel Suarez"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 24,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Coronel Vidal",
+        "Latitud": -37.4269,
+        "Longitud": -57.7336,
+        "Altura_snm": 149.2,
+        "Sitio": "Coronel Vidal"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 25,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Dolores",
+        "Latitud": -36.2719,
+        "Longitud": -57.6855,
+        "Altura_snm": 150.75,
+        "Sitio": "Dolores"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 26,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Florencio Varela",
+        "Latitud": -34.8394,
+        "Longitud": -58.2025,
+        "Altura_snm": 254.85,
+        "Sitio": "Florencio Varela"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 33,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Guerrero",
+        "Latitud": -35.938,
+        "Longitud": -57.8644,
+        "Altura_snm": 149.2,
+        "Sitio": "Guerrero"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 35,
+        "Provincia": "Buenos Aires",
+        "Localidad": "La Matanza",
+        "Latitud": -34.6631,
+        "Longitud": -58.5678,
+        "Altura_snm": 70.9,
+        "Sitio": "La Matanza"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 36,
+        "Provincia": "Buenos Aires",
+        "Localidad": "La Plata",
+        "Latitud": -34.9426,
+        "Longitud": -57.9747,
+        "Altura_snm": 150.75,
+        "Sitio": "La Plata"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 38,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Las Flores",
+        "Latitud": -36.0264,
+        "Longitud": -59.0758,
+        "Altura_snm": 149.2,
+        "Sitio": "Las Flores"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 39,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Lincoln",
+        "Latitud": -34.8604,
+        "Longitud": -61.5056,
+        "Altura_snm": 70.44,
+        "Sitio": "Lincoln"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 41,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Los Toldos",
+        "Latitud": -35.02,
+        "Longitud": -61.0022,
+        "Altura_snm": 40.9,
+        "Sitio": "Los Toldos"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 42,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Luj�n",
+        "Latitud": -34.5494,
+        "Longitud": -59.1517,
+        "Altura_snm": 150.75,
+        "Sitio": "Luj�n"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 43,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Maip�",
+        "Latitud": -36.8481,
+        "Longitud": -57.8651,
+        "Altura_snm": 149.2,
+        "Sitio": "Maip�"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 44,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Mar de Aj�",
+        "Latitud": -36.7237,
+        "Longitud": -56.7486,
+        "Altura_snm": 148.9,
+        "Sitio": "Mar de Aj�"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 45,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Mar del Plata",
+        "Latitud": -37.8878,
+        "Longitud": -57.5304,
+        "Altura_snm": 126.75,
+        "Sitio": "Mar del Plata"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 48,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Navarro",
+        "Latitud": -34.9776,
+        "Longitud": -59.2986,
+        "Altura_snm": 150.75,
+        "Sitio": "Navarro"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 50,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Olavarr�a",
+        "Latitud": -36.8783,
+        "Longitud": -60.3627,
+        "Altura_snm": 149.2,
+        "Sitio": "Olavarr�a"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 56,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Pinamar",
+        "Latitud": -37.1176,
+        "Longitud": -56.8967,
+        "Altura_snm": 150.75,
+        "Sitio": "Pinamar"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 66,
+        "Provincia": "Buenos Aires",
+        "Localidad": "San Miguel del Monte",
+        "Latitud": -35.4308,
+        "Longitud": -58.795,
+        "Altura_snm": 148.9,
+        "Sitio": "San Miguel del Monte"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 67,
+        "Provincia": "Buenos Aires",
+        "Localidad": "San Nicol�s de los Arroyos",
+        "Latitud": -33.3389,
+        "Longitud": -60.2009,
+        "Altura_snm": 102.75,
+        "Sitio": "San Nicol�s"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 69,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Tandil",
+        "Latitud": -37.2734,
+        "Longitud": -59.063,
+        "Altura_snm": 64.9,
+        "Sitio": "Tandil"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 72,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Trenque Lauquen",
+        "Latitud": -35.9144,
+        "Longitud": -62.7349,
+        "Altura_snm": 149.2,
+        "Sitio": "Trenque Lauquen"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 75,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Vedia",
+        "Latitud": -34.498,
+        "Longitud": -61.5585,
+        "Altura_snm": 40.9,
+        "Sitio": "Vedia"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 78,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Vicente L�pez",
+        "Latitud": -34.5616,
+        "Longitud": -58.5122,
+        "Altura_snm": 170,
+        "Sitio": "Villa Martelli"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 80,
+        "Provincia": "Buenos Aires",
+        "Localidad": "9 de Julio",
+        "Latitud": -35.45,
+        "Longitud": -60.8667,
+        "Altura_snm": 70.44,
+        "Sitio": "9 de Julio"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 12,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Ca�uelas",
+        "Latitud": -35.0254,
+        "Longitud": -58.7327,
+        "Altura_snm": 150.75,
+        "Sitio": "Ca�uelas"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 7,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Balcarce",
+        "Latitud": -37.8169,
+        "Longitud": -58.2302,
+        "Altura_snm": 148.9,
+        "Sitio": "Balcarce"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 6,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Bahia Blanca",
+        "Latitud": -38.696961,
+        "Longitud": -62.29921,
+        "Altura_snm": 148.9,
+        "Sitio": "Bahia Blanca"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 76,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Vieytes",
+        "Latitud": -35.2686,
+        "Longitud": -57.5656,
+        "Altura_snm": 148.9,
+        "Sitio": "Vieytes"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 64,
+        "Provincia": "Buenos Aires",
+        "Localidad": "San Carlos de Bolivar",
+        "Latitud": -36.217769,
+        "Longitud": -61.115944,
+        "Altura_snm": 70.44,
+        "Sitio": "San Carlos de Bolivar"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 49,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Necochea",
+        "Latitud": -38.576127,
+        "Longitud": -58.718654,
+        "Altura_snm": 148.9,
+        "Sitio": "Necochea"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 84,
+        "Provincia": "C�rdoba",
+        "Localidad": "C�rdoba",
+        "Latitud": -31.4142,
+        "Longitud": -64.4267,
+        "Altura_snm": 54.75,
+        "Sitio": "C�rdoba Capital - Cerro Mogote"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 8,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Baradero",
+        "Latitud": -33.7843,
+        "Longitud": -59.537,
+        "Altura_snm": 150.75,
+        "Sitio": "Baradero"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 63,
+        "Provincia": "Buenos Aires",
+        "Localidad": "San Antonio de Areco",
+        "Latitud": -34.2628,
+        "Longitud": -59.4429,
+        "Altura_snm": 148.9,
+        "Sitio": "San Antonio de Areco"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 93,
+        "Provincia": "Entre Rios",
+        "Localidad": "Concepci�n del Uruguay",
+        "Latitud": -32.4617,
+        "Longitud": -58.2356,
+        "Altura_snm": 40.9,
+        "Sitio": "Concepci�n del Uruguay"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 99,
+        "Provincia": "Entre Rios",
+        "Localidad": "Gualeguaych�",
+        "Latitud": -33.0508,
+        "Longitud": -58.54,
+        "Altura_snm": 77.2,
+        "Sitio": "Gualeguaych�"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 102,
+        "Provincia": "Entre Rios",
+        "Localidad": "Paran�",
+        "Latitud": -31.7579,
+        "Longitud": -60.5396,
+        "Altura_snm": 154.9,
+        "Sitio": "Paran�"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 106,
+        "Provincia": "Entre Rios",
+        "Localidad": "Victoria",
+        "Latitud": -32.6148,
+        "Longitud": -60.1242,
+        "Altura_snm": 76.9,
+        "Sitio": "Victoria"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 114,
+        "Provincia": "La Pampa",
+        "Localidad": "Santa Rosa",
+        "Latitud": -36.666,
+        "Longitud": -64.2879,
+        "Altura_snm": 150.75,
+        "Sitio": "Santa Rosa"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 115,
+        "Provincia": "Santa Fe",
+        "Localidad": "Ca�ada de G�mez",
+        "Latitud": -32.8171,
+        "Longitud": -61.413,
+        "Altura_snm": 148.9,
+        "Sitio": "Ca�ada de G�mez"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 117,
+        "Provincia": "Santa Fe",
+        "Localidad": "Ceres",
+        "Latitud": -29.9364,
+        "Longitud": -61.8976,
+        "Altura_snm": 148.9,
+        "Sitio": "Ceres"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 118,
+        "Provincia": "Santa Fe",
+        "Localidad": "Esperanza",
+        "Latitud": -31.46,
+        "Longitud": -60.9428,
+        "Altura_snm": 70.44,
+        "Sitio": "Esperanza"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 120,
+        "Provincia": "Santa Fe",
+        "Localidad": "Frontera",
+        "Latitud": -31.4585,
+        "Longitud": -62.0655,
+        "Altura_snm": 148.9,
+        "Sitio": "Frontera"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 123,
+        "Provincia": "Santa Fe",
+        "Localidad": "Rafaela",
+        "Latitud": -31.2261,
+        "Longitud": -61.4703,
+        "Altura_snm": 148.9,
+        "Sitio": "Rafaela"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 124,
+        "Provincia": "Santa Fe",
+        "Localidad": "Rosario",
+        "Latitud": -33.0141,
+        "Longitud": -60.6299,
+        "Altura_snm": 150.75,
+        "Sitio": "Rosario"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 133,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Campo de Mayo",
+        "Latitud": -34.5097,
+        "Longitud": -58.602,
+        "Altura_snm": 112.9,
+        "Sitio": "Campo de Mayo"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 134,
+        "Provincia": "CABA",
+        "Localidad": "Villa Devoto",
+        "Latitud": -34.5935,
+        "Longitud": -58.5093,
+        "Altura_snm": 89.2,
+        "Sitio": "Villa Devoto"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 135,
+        "Provincia": "Chaco",
+        "Localidad": "Villa Angela",
+        "Latitud": -27.5921,
+        "Longitud": -60.7489,
+        "Altura_snm": 76.9,
+        "Sitio": "Villa Angela"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 139,
+        "Provincia": "Chaco",
+        "Localidad": "Machagai",
+        "Latitud": -26.9374,
+        "Longitud": -60.0617,
+        "Altura_snm": 70.44,
+        "Sitio": "Machagai"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 145,
+        "Provincia": "Corrientes",
+        "Localidad": "Bella Vista",
+        "Latitud": -28.5119,
+        "Longitud": -59.0078,
+        "Altura_snm": 148.9,
+        "Sitio": "Bella Vista"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 152,
+        "Provincia": "Corrientes",
+        "Localidad": "Ituzaing�",
+        "Latitud": -27.5683,
+        "Longitud": -56.6752,
+        "Altura_snm": 70.44,
+        "Sitio": "Ituzaing�"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 161,
+        "Provincia": "Formosa",
+        "Localidad": "Clorinda",
+        "Latitud": -25.3207,
+        "Longitud": -57.7192,
+        "Altura_snm": 42.75,
+        "Sitio": "Clorinda"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 165,
+        "Provincia": "Formosa",
+        "Localidad": "Formosa",
+        "Latitud": -26.1292,
+        "Longitud": -58.1634,
+        "Altura_snm": 72.75,
+        "Sitio": "Formosa"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 168,
+        "Provincia": "Formosa",
+        "Localidad": "Laguna Blanca",
+        "Latitud": -25.1195,
+        "Longitud": -58.2757,
+        "Altura_snm": 77.2,
+        "Sitio": "Laguna Blanca"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 178,
+        "Provincia": "Misiones",
+        "Localidad": "Ober� (Leandro N. Alem)",
+        "Latitud": -27.4793,
+        "Longitud": -55.0766,
+        "Altura_snm": 148.9,
+        "Sitio": "Ober� (Leandro N. Alem)"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 179,
+        "Provincia": "Misiones",
+        "Localidad": "Posadas",
+        "Latitud": -27.4781,
+        "Longitud": -55.8613,
+        "Altura_snm": 150.75,
+        "Sitio": "Posadas"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 180,
+        "Provincia": "Misiones",
+        "Localidad": "Puerto Iguaz�",
+        "Latitud": -25.653,
+        "Longitud": -54.5137,
+        "Altura_snm": 100.9,
+        "Sitio": "Puerto Iguaz�"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 183,
+        "Provincia": "Santa Fe",
+        "Localidad": "Reconquista",
+        "Latitud": -29.1341,
+        "Longitud": -59.6541,
+        "Altura_snm": 76.9,
+        "Sitio": "Reconquista"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 189,
+        "Provincia": "Jujuy",
+        "Localidad": "San Salvador de Jujuy",
+        "Latitud": -24.1864,
+        "Longitud": -65.334,
+        "Altura_snm": 72.75,
+        "Sitio": "Jujuy"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 200,
+        "Provincia": "Salta",
+        "Localidad": "Tartagal",
+        "Latitud": -22.5282,
+        "Longitud": -63.8121,
+        "Altura_snm": 70.44,
+        "Sitio": "Tartagal"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 202,
+        "Provincia": "Santiago del Estero",
+        "Localidad": "Quimili",
+        "Latitud": -27.6358,
+        "Longitud": -62.425,
+        "Altura_snm": 40.9,
+        "Sitio": "Quimili"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 203,
+        "Provincia": "Santiago del Estero",
+        "Localidad": "Santiago del Estero",
+        "Latitud": -27.8818,
+        "Longitud": -64.2414,
+        "Altura_snm": 150.75,
+        "Sitio": "Santiago del Estero"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 206,
+        "Provincia": "Tucum�n",
+        "Localidad": "Tucum�n",
+        "Latitud": -26.8479,
+        "Longitud": -65.3766,
+        "Altura_snm": 72.75,
+        "Sitio": "Tucum�n"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 216,
+        "Provincia": "La Rioja",
+        "Localidad": "La Rioja",
+        "Latitud": -29.4262,
+        "Longitud": -66.8731,
+        "Altura_snm": 150.75,
+        "Sitio": "La Rioja"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 219,
+        "Provincia": "Mendoza",
+        "Localidad": "Mendoza",
+        "Latitud": -32.8367,
+        "Longitud": -68.9348,
+        "Altura_snm": 53.75,
+        "Sitio": "Mendoza"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 220,
+        "Provincia": "Mendoza",
+        "Localidad": "General Alvear",
+        "Latitud": -35.0333,
+        "Longitud": -67.6565,
+        "Altura_snm": 52.9,
+        "Sitio": "General Alvear"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 94,
+        "Provincia": "Entre Rios",
+        "Localidad": "Concordia",
+        "Latitud": -31.418,
+        "Longitud": -58.0972,
+        "Altura_snm": 148.9,
+        "Sitio": "Concordia"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 143,
+        "Provincia": "Chaco",
+        "Localidad": "Resistencia",
+        "Latitud": -27.3643,
+        "Longitud": -59.0769,
+        "Altura_snm": 150.75,
+        "Sitio": "Resistencia"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 132,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Pilar",
+        "Latitud": -34.4317,
+        "Longitud": -58.8209,
+        "Altura_snm": 190,
+        "Sitio": "Pilar"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 85,
+        "Provincia": "C�rdoba",
+        "Localidad": "C�rdoba",
+        "Latitud": -31.357,
+        "Longitud": -64.197,
+        "Altura_snm": 125.9,
+        "Sitio": "Cordoba Capital II"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 127,
+        "Provincia": "Santa Fe",
+        "Localidad": "Santo Tom�",
+        "Latitud": -31.6961,
+        "Longitud": -60.7504,
+        "Altura_snm": 72.75,
+        "Sitio": "Santo Tom� - Santa Fe"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 191,
+        "Provincia": "Salta",
+        "Localidad": "Salta",
+        "Latitud": -24.7822,
+        "Longitud": -65.3947,
+        "Altura_snm": 21,
+        "Sitio": "Salta"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 86,
+        "Provincia": "C�rdoba",
+        "Localidad": "Cerro Leones",
+        "Latitud": -32.6714,
+        "Longitud": -62.3149,
+        "Altura_snm": 77.2,
+        "Sitio": "Cerro Leones"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 222,
+        "Provincia": "Mendoza",
+        "Localidad": "Tupungato",
+        "Latitud": -33.3854,
+        "Longitud": -69.1638,
+        "Altura_snm": 136.9,
+        "Sitio": "Tupungato"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 223,
+        "Provincia": "San Juan",
+        "Localidad": "San Jos� de Jachal",
+        "Latitud": -30.1718,
+        "Longitud": -68.7151,
+        "Altura_snm": 76.9,
+        "Sitio": "Jachal"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 224,
+        "Provincia": "San Juan",
+        "Localidad": "San Juan",
+        "Latitud": -31.5169,
+        "Longitud": -68.6296,
+        "Altura_snm": 150.75,
+        "Sitio": "San Juan"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 228,
+        "Provincia": "San Luis",
+        "Localidad": "San Luis",
+        "Latitud": -33.2955,
+        "Longitud": -66.2868,
+        "Altura_snm": 149.2,
+        "Sitio": "San Luis"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 230,
+        "Provincia": "Neuqu�n",
+        "Localidad": "Neuqu�n",
+        "Latitud": -38.9386,
+        "Longitud": -68.0554,
+        "Altura_snm": 48.75,
+        "Sitio": "Neuqu�n"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 237,
+        "Provincia": "Chubut",
+        "Localidad": "Puerto Madryn",
+        "Latitud": -42.7248,
+        "Longitud": -65.0345,
+        "Altura_snm": 72.75,
+        "Sitio": "Puerto Madryn"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 239,
+        "Provincia": "Chubut",
+        "Localidad": "Comodoro Rivadavia",
+        "Latitud": -45.8546,
+        "Longitud": -67.4884,
+        "Altura_snm": 39.32,
+        "Sitio": "Comodoro Rivadavia"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 248,
+        "Provincia": "Chubut",
+        "Localidad": "Esquel",
+        "Latitud": -42.9061,
+        "Longitud": -71.3438,
+        "Altura_snm": 39.7,
+        "Sitio": "Esquel"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 258,
+        "Provincia": "Santa Cruz",
+        "Localidad": "Comandante Luis Piedrabuena",
+        "Latitud": -49.9637,
+        "Longitud": -68.9124,
+        "Altura_snm": 41.2,
+        "Sitio": "Comandante Piedrabuena"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 259,
+        "Provincia": "Santa Cruz",
+        "Localidad": "El Calafate",
+        "Latitud": -50.3578,
+        "Longitud": -72.289,
+        "Altura_snm": 72.75,
+        "Sitio": "El Calafate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 260,
+        "Provincia": "Santa Cruz",
+        "Localidad": "Puerto Deseado",
+        "Latitud": -47.7427,
+        "Longitud": -65.8735,
+        "Altura_snm": 40.9,
+        "Sitio": "Puerto Deseado"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 261,
+        "Provincia": "Santa Cruz",
+        "Localidad": "Puerto San Juli�n",
+        "Latitud": -49.3118,
+        "Longitud": -67.7453,
+        "Altura_snm": 40.9,
+        "Sitio": "Puerto San Juli�n"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 265,
+        "Provincia": "Tierra del Fuego",
+        "Localidad": "Ushuaia",
+        "Latitud": -54.8011,
+        "Longitud": -68.2219,
+        "Altura_snm": 71.2,
+        "Sitio": "Ushuaia"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 221,
+        "Provincia": "Mendoza",
+        "Localidad": "San Rafael",
+        "Latitud": -34.629162,
+        "Longitud": -68.266677,
+        "Altura_snm": 148.9,
+        "Sitio": "San Rafael"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 238,
+        "Provincia": "Chubut",
+        "Localidad": "Rawson",
+        "Latitud": -43.2805,
+        "Longitud": -65.1513,
+        "Altura_snm": 148.9,
+        "Sitio": "Rawson/Trelew"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 211,
+        "Provincia": "Catamarca",
+        "Localidad": "San Fernando del Valle de Catamarca",
+        "Latitud": -28.457212,
+        "Longitud": -65.766111,
+        "Altura_snm": 19.5,
+        "Sitio": "Catamarca"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 19,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Chivilcoy",
+        "Latitud": -34.8554,
+        "Longitud": -59.9908,
+        "Altura_snm": 40.9,
+        "Sitio": "Chivilcoy"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 52,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Pehuaj�",
+        "Latitud": -35.80706124,
+        "Longitud": -61.88532721,
+        "Altura_snm": 76.9,
+        "Sitio": "Pehuaj�"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 0,
+        "Provincia": "Santa Fe",
+        "Localidad": "Santa Fe",
+        "Latitud": -31.6135964973,
+        "Longitud": -60.7370443251,
+        "Altura_snm": 33,
+        "Sitio": "Santa Fe"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 0,
+        "Provincia": "San Juan",
+        "Localidad": "San Juan",
+        "Latitud": -31.5057630194,
+        "Longitud": -68.5167500573,
+        "Altura_snm": 33,
+        "Sitio": "San Juan II"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 89,
+        "Provincia": "C�rdoba",
+        "Localidad": "Villa Mar�a",
+        "Latitud": -32.4654,
+        "Longitud": -63.1925,
+        "Altura_snm": 150.75,
+        "Sitio": "Villa Mar�a"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 201,
+        "Provincia": "Santiago del Estero",
+        "Localidad": "A�atuya",
+        "Latitud": -28.4551,
+        "Longitud": -62.8431,
+        "Altura_snm": 76.9,
+        "Sitio": "A�atuya"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 160,
+        "Provincia": "Corrientes",
+        "Localidad": "Santo Tom�",
+        "Latitud": -28.5865,
+        "Longitud": -56.0419,
+        "Altura_snm": 145.5,
+        "Sitio": "Santo Tom� - Corrientes"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 300,
+        "Provincia": "Ciudad de Buenos Aires",
+        "Localidad": "Ciudad de Buenos Aires",
+        "Latitud": -34.6122420748,
+        "Longitud": -58.3814664316,
+        "Altura_snm": 155,
+        "Sitio": "Ministerio de Obras P�blicas"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 88,
+        "Provincia": "C�rdoba",
+        "Localidad": "R�o Tercero",
+        "Latitud": -32.1468,
+        "Longitud": -64.1474,
+        "Altura_snm": 76.9,
+        "Sitio": "R�o Tercero"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 242,
+        "Provincia": "Santa Cruz",
+        "Localidad": "Pico Truncado",
+        "Latitud": -46.8054,
+        "Longitud": -67.9887,
+        "Altura_snm": 40.9,
+        "Sitio": "Pico Truncado"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 244,
+        "Provincia": "Chubut",
+        "Localidad": "Lago Puelo",
+        "Latitud": -42.0516,
+        "Longitud": -71.5833,
+        "Altura_snm": 46.9,
+        "Sitio": "Lago Puelo"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 65,
+        "Provincia": "Buenos Aires",
+        "Localidad": "San Clemente",
+        "Latitud": -36.3792,
+        "Longitud": -56.7453,
+        "Altura_snm": 148.9,
+        "Sitio": "San Clemente del Tuy�"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 225,
+        "Provincia": "C�rdoba",
+        "Localidad": "Villa Dolores",
+        "Latitud": -31.9789,
+        "Longitud": -65.2346,
+        "Altura_snm": 149.2,
+        "Sitio": "Villa Dolores"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 240,
+        "Provincia": "Santa Cruz",
+        "Localidad": "Caleta Olivia",
+        "Latitud": -46.4579,
+        "Longitud": -67.5144,
+        "Altura_snm": 70.9,
+        "Sitio": "Caleta Olivia"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 233,
+        "Provincia": "R�o Negro",
+        "Localidad": "Mainque",
+        "Latitud": -39.0302,
+        "Longitud": -67.2748,
+        "Altura_snm": 149.2,
+        "Sitio": "Mainque"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 235,
+        "Provincia": "R�o Negro",
+        "Localidad": "San Antonio Oeste",
+        "Latitud": -40.707,
+        "Longitud": -64.9258,
+        "Altura_snm": 76.9,
+        "Sitio": "San Antonio Oeste"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 236,
+        "Provincia": "R�o Negro",
+        "Localidad": "Viedma",
+        "Latitud": -40.7934,
+        "Longitud": -63.0523,
+        "Altura_snm": 95.2,
+        "Sitio": "Viedma"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 246,
+        "Provincia": "R�o Negro",
+        "Localidad": "San Carlos de Bariloche",
+        "Latitud": -41.1342,
+        "Longitud": -71.2763,
+        "Altura_snm": 72.75,
+        "Sitio": "Bariloche"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 16,
+        "Provincia": "Buenos Aires",
+        "Localidad": "Chacabuco",
+        "Latitud": -34.58794039,
+        "Longitud": -60.46583875,
+        "Altura_snm": 76.9,
+        "Sitio": "Chacabuco"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 262,
+        "Provincia": "Santa Cruz",
+        "Localidad": "R�o Gallegos",
+        "Latitud": -51.6701,
+        "Longitud": -69.2317,
+        "Altura_snm": 42.75,
+        "Sitio": "R�o Gallegos"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 266,
+        "Provincia": "C�rdoba",
+        "Localidad": "R�o Cuarto",
+        "Latitud": -33.106473248,
+        "Longitud": -64.3868267452,
+        "Altura_snm": 33,
+        "Sitio": "R�o Cuarto"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 301,
+        "Provincia": "Santa Cruz",
+        "Localidad": "R�o Turbio",
+        "Latitud": -51.537017,
+        "Longitud": -72.348056,
+        "Altura_snm": 0,
+        "Sitio": "R�o Turbio"
+      },
+      "geometry": null
+    }
+  ]
+}
