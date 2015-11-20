@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app="gisApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Example - example-example10-production</title>
+
+    <script src="../node_modules/lodash/index.js"></script>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
+    <script src="../node_modules/angular-google-maps/dist/angular-google-maps.js"></script>
+    <script src="../static/app.js"></script>
+    <script src="../static/controller.js"></script>
+    <script src="../static/service.js"></script>
+
+    <link href="../static/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div>
+
+    <div ng-controller="gisController">
+
+        <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="options">
+            <ui-gmap-marker coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id">
+            </ui-gmap-marker>
+            <ui-gmap-marker coords="marker2.coords" options="marker2.options" events="marker2.events"
+                            idkey="marker2.id">
+            </ui-gmap-marker>
+        </ui-gmap-google-map>
+        <p></p>
+        <button ng-click="getClosestEdt(marker.coords.latitude,marker.coords.longitude)">
+            EDT mas cernana
+        </button>
+        <p></p>
+        {{closest_edt}}
+
+
+    </div>
+
+
+</div>
+</body>
+
+</html>
