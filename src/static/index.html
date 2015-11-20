@@ -20,19 +20,19 @@
 
     <div ng-controller="gisController">
 
-        <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="options">
-            <ui-gmap-marker coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id">
-            </ui-gmap-marker>
-            <ui-gmap-marker coords="marker2.coords" options="marker2.options" events="marker2.events"
-                            idkey="marker2.id">
-            </ui-gmap-marker>
+        <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="options" bounds="map.bounds">
+            <ui-gmap-markers models="markers" coords="'coords'" icon="'icon'" options="'options'">
+            </ui-gmap-markers>
         </ui-gmap-google-map>
         <p></p>
-        <button ng-click="getClosestEdt(marker.coords.latitude,marker.coords.longitude)">
-            EDT mas cernana
-        </button>
+
+        <div class='button-container'>
+            <button ng-click="getClosestEdt(mainMarker.coords.latitude,mainMarker.coords.longitude)">
+                EDT mas cernana
+            </button>
+        </div>
         <p></p>
-        {{closest_edt}}
+        {{closest_edt||json}}
 
 
     </div>
