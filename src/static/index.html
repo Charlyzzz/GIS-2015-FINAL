@@ -1,11 +1,15 @@
 <!doctype html>
-<html lang="en" ng-app="gisApp">
+<html lang="en" ng-app="gisApp" style="overflow: hidden">
 <head>
     <meta charset="UTF-8">
-    <title>Example - example-example10-production</title>
+    <title>GIS UTN 2015</title>
+
+    <link rel="icon" type="image/png" href="../static/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="../static/favicon-16x16.png" sizes="16x16"/>
+
 
     <script src="../node_modules/lodash/index.js"></script>
-    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular/angular.js"></script>
     <script src="../node_modules/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
     <script src="../node_modules/angular-google-maps/dist/angular-google-maps.js"></script>
     <script src="../static/app.js"></script>
@@ -14,31 +18,97 @@
 
     <link href="../static/style.css" rel="stylesheet" type="text/css">
 
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-<div>
+<div class="row">
+    <ul class="nav nav-tabs col-lg-10 col-lg-push-1">
+        <li role="presentation" class="active"><a target="_self" href="/localizar">Localizar</a></li>
+        <li role="presentation" role="presentation"><a target="_self" href="/administrar">Administrar</a></li>
+        <li class="col-lg-2 col-lg-offset-8" role="presentation"><a>UTN FRBA 2015-2C-GIS</a></li>
+    </ul>
+</div>
 
-    <div ng-controller="gisController">
+<div class="container-fluid col-lg-8 col-lg-offset-2" ng-controller="gisController">
 
-        <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="options" bounds="map.bounds">
-            <ui-gmap-markers models="markers" coords="'coords'" icon="'icon'" options="'options'">
-            </ui-gmap-markers>
-        </ui-gmap-google-map>
-        <p></p>
 
-        <div class='button-container'>
-            <button ng-click="getClosestEdt(mainMarker.coords.latitude,mainMarker.coords.longitude)">
-                EDT mas cernana
-            </button>
+    <div class="jumbotron" style="margin-bottom: 0px;">
+        <div class="row">
+            <div class="col-lg-12">
+                <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="map.options"
+                                    bounds="map.bounds" pan="true">
+
+
+                    <ui-gmap-markers models="markers" coords="'coords'" icon="'icon'" options="'options'"
+                                     events="markerEvents">
+
+                    </ui-gmap-markers>
+
+                    <ui-gmap-polyline path="ortodromica.path" stroke="ortodromica.stroke" visible="ortodromica.visible"
+                                      geodesic="ortodromica.geodesic" fit="false" editable="ortodromica.editable"
+                                      draggable="ortodromica.draggable"
+                                      icons="ortodromica.icons"></ui-gmap-polyline>
+
+                </ui-gmap-google-map>
+
+            </div>
         </div>
-        <p></p>
-        {{closest_edt||json}}
+
+        <div class="row" style="margin-top: 20px;">
+
+            <div class="col-lg-3 col-lg-offset-2">
+
+                <div class="progress animate-hide" ng-hide="hideProgress" style="height: 84px;">
+                    <div class={{progressClass}} role="progressbar" aria-valuenow="100"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 100%; display: table;">
+                        <span class="miSpan">CALIDAD DE RECEPCION</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-5">
+
+                <ul class="list-group" ng-hide="hideProgress">
 
 
+                    <li class="list-group-item ">
+                        <span class="badge">{{closest_edt.sitio}}</span>
+                        Estacion
+                    </li>
+                    <li class="list-group-item ">
+                        <span class="badge">{{closest_edt.altura_snm}} metros</span>
+                        Altura
+                    </li>
+                    <li class="list-group-item ">
+                        <span class="badge">{{bearing|number:2}} grados</span>
+                        Forward Azimuth
+                    </li>
+                    <li class="list-group-item ">
+                        <span class="badge">{{distance}} metros</span>
+                        Distancia
+                    </li>
+                    <li class="list-group-item ">
+                        <span class="badge">{{closest_edt.localidad}}</span>
+                        Localidad
+                    </li>
+                    <li class="list-group-item ">
+                        <span class="badge">{{closest_edt.provincia}}</span>
+                        Provincia
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
     </div>
 
-
 </div>
+
+
 </body>
 
 </html>

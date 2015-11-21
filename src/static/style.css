@@ -10,3 +10,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.miSpan {
+    display: table-cell;
+    vertical-align: middle;
+}

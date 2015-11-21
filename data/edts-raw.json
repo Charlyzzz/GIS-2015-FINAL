@@ -57,11 +57,11 @@
       "properties": {
         "ID": 18,
         "Provincia": "Buenos Aires",
-        "Localidad": "Chascom�s",
+        "Localidad": "Chascomús",
         "Latitud": -35.5866,
         "Longitud": -57.9658,
         "Altura_snm": 149.2,
-        "Sitio": "Chascom�s"
+        "Sitio": "Chascomús"
       },
       "geometry": null
     },
@@ -213,11 +213,11 @@
       "properties": {
         "ID": 42,
         "Provincia": "Buenos Aires",
-        "Localidad": "Luj�n",
+        "Localidad": "Luján",
         "Latitud": -34.5494,
         "Longitud": -59.1517,
         "Altura_snm": 150.75,
-        "Sitio": "Luj�n"
+        "Sitio": "Luján"
       },
       "geometry": null
     },
@@ -226,11 +226,11 @@
       "properties": {
         "ID": 43,
         "Provincia": "Buenos Aires",
-        "Localidad": "Maip�",
+        "Localidad": "Maipú",
         "Latitud": -36.8481,
         "Longitud": -57.8651,
         "Altura_snm": 149.2,
-        "Sitio": "Maip�"
+        "Sitio": "Maipú"
       },
       "geometry": null
     },
@@ -239,11 +239,11 @@
       "properties": {
         "ID": 44,
         "Provincia": "Buenos Aires",
-        "Localidad": "Mar de Aj�",
+        "Localidad": "Mar de Ajó",
         "Latitud": -36.7237,
         "Longitud": -56.7486,
         "Altura_snm": 148.9,
-        "Sitio": "Mar de Aj�"
+        "Sitio": "Mar de Ajó"
       },
       "geometry": null
     },
@@ -278,11 +278,11 @@
       "properties": {
         "ID": 50,
         "Provincia": "Buenos Aires",
-        "Localidad": "Olavarr�a",
+        "Localidad": "Olavarría",
         "Latitud": -36.8783,
         "Longitud": -60.3627,
         "Altura_snm": 149.2,
-        "Sitio": "Olavarr�a"
+        "Sitio": "Olavarría"
       },
       "geometry": null
     },
@@ -317,11 +317,11 @@
       "properties": {
         "ID": 67,
         "Provincia": "Buenos Aires",
-        "Localidad": "San Nicol�s de los Arroyos",
+        "Localidad": "San Nicolás de los Arroyos",
         "Latitud": -33.3389,
         "Longitud": -60.2009,
         "Altura_snm": 102.75,
-        "Sitio": "San Nicol�s"
+        "Sitio": "San Nicolás"
       },
       "geometry": null
     },
@@ -369,7 +369,7 @@
       "properties": {
         "ID": 78,
         "Provincia": "Buenos Aires",
-        "Localidad": "Vicente L�pez",
+        "Localidad": "Vicente López",
         "Latitud": -34.5616,
         "Longitud": -58.5122,
         "Altura_snm": 170,
@@ -395,11 +395,11 @@
       "properties": {
         "ID": 12,
         "Provincia": "Buenos Aires",
-        "Localidad": "Ca�uelas",
+        "Localidad": "Cañuelas",
         "Latitud": -35.0254,
         "Longitud": -58.7327,
         "Altura_snm": 150.75,
-        "Sitio": "Ca�uelas"
+        "Sitio": "Cañuelas"
       },
       "geometry": null
     },
@@ -472,12 +472,12 @@
       "type": "Feature",
       "properties": {
         "ID": 84,
-        "Provincia": "C�rdoba",
-        "Localidad": "C�rdoba",
+        "Provincia": "Córdoba",
+        "Localidad": "Córdoba",
         "Latitud": -31.4142,
         "Longitud": -64.4267,
         "Altura_snm": 54.75,
-        "Sitio": "C�rdoba Capital - Cerro Mogote"
+        "Sitio": "Córdoba Capital - Cerro Mogote"
       },
       "geometry": null
     },
@@ -512,11 +512,11 @@
       "properties": {
         "ID": 93,
         "Provincia": "Entre Rios",
-        "Localidad": "Concepci�n del Uruguay",
+        "Localidad": "Concepción del Uruguay",
         "Latitud": -32.4617,
         "Longitud": -58.2356,
         "Altura_snm": 40.9,
-        "Sitio": "Concepci�n del Uruguay"
+        "Sitio": "Concepción del Uruguay"
       },
       "geometry": null
     },
@@ -525,11 +525,11 @@
       "properties": {
         "ID": 99,
         "Provincia": "Entre Rios",
-        "Localidad": "Gualeguaych�",
+        "Localidad": "Gualeguaychú",
         "Latitud": -33.0508,
         "Longitud": -58.54,
         "Altura_snm": 77.2,
-        "Sitio": "Gualeguaych�"
+        "Sitio": "Gualeguaychú"
       },
       "geometry": null
     },
@@ -538,11 +538,11 @@
       "properties": {
         "ID": 102,
         "Provincia": "Entre Rios",
-        "Localidad": "Paran�",
+        "Localidad": "Paraná",
         "Latitud": -31.7579,
         "Longitud": -60.5396,
         "Altura_snm": 154.9,
-        "Sitio": "Paran�"
+        "Sitio": "Paraná"
       },
       "geometry": null
     },
@@ -577,11 +577,11 @@
       "properties": {
         "ID": 115,
         "Provincia": "Santa Fe",
-        "Localidad": "Ca�ada de G�mez",
+        "Localidad": "Cañada de Gómez",
         "Latitud": -32.8171,
         "Longitud": -61.413,
         "Altura_snm": 148.9,
-        "Sitio": "Ca�ada de G�mez"
+        "Sitio": "Cañada de Gómez"
       },
       "geometry": null
     },
@@ -720,11 +720,11 @@
       "properties": {
         "ID": 152,
         "Provincia": "Corrientes",
-        "Localidad": "Ituzaing�",
+        "Localidad": "Ituzaingó",
         "Latitud": -27.5683,
         "Longitud": -56.6752,
         "Altura_snm": 70.44,
-        "Sitio": "Ituzaing�"
+        "Sitio": "Ituzaingó"
       },
       "geometry": null
     },
@@ -772,11 +772,11 @@
       "properties": {
         "ID": 178,
         "Provincia": "Misiones",
-        "Localidad": "Ober� (Leandro N. Alem)",
+        "Localidad": "Oberá (Leandro N. Alem)",
         "Latitud": -27.4793,
         "Longitud": -55.0766,
         "Altura_snm": 148.9,
-        "Sitio": "Ober� (Leandro N. Alem)"
+        "Sitio": "Oberá (Leandro N. Alem)"
       },
       "geometry": null
     },
@@ -798,11 +798,11 @@
       "properties": {
         "ID": 180,
         "Provincia": "Misiones",
-        "Localidad": "Puerto Iguaz�",
+        "Localidad": "Puerto Iguazú",
         "Latitud": -25.653,
         "Longitud": -54.5137,
         "Altura_snm": 100.9,
-        "Sitio": "Puerto Iguaz�"
+        "Sitio": "Puerto Iguazú"
       },
       "geometry": null
     },
@@ -875,12 +875,12 @@
       "type": "Feature",
       "properties": {
         "ID": 206,
-        "Provincia": "Tucum�n",
-        "Localidad": "Tucum�n",
+        "Provincia": "Tucumán",
+        "Localidad": "Tucumán",
         "Latitud": -26.8479,
         "Longitud": -65.3766,
         "Altura_snm": 72.75,
-        "Sitio": "Tucum�n"
+        "Sitio": "Tucumán"
       },
       "geometry": null
     },
@@ -966,12 +966,12 @@
       "type": "Feature",
       "properties": {
         "ID": 85,
-        "Provincia": "C�rdoba",
-        "Localidad": "C�rdoba",
+        "Provincia": "Córdoba",
+        "Localidad": "Córdoba",
         "Latitud": -31.357,
         "Longitud": -64.197,
         "Altura_snm": 125.9,
-        "Sitio": "Cordoba Capital II"
+        "Sitio": "Córdoba Capital II"
       },
       "geometry": null
     },
@@ -980,11 +980,11 @@
       "properties": {
         "ID": 127,
         "Provincia": "Santa Fe",
-        "Localidad": "Santo Tom�",
+        "Localidad": "Santo Tomé",
         "Latitud": -31.6961,
         "Longitud": -60.7504,
         "Altura_snm": 72.75,
-        "Sitio": "Santo Tom� - Santa Fe"
+        "Sitio": "Santo Tomé - Santa Fe"
       },
       "geometry": null
     },
@@ -1005,7 +1005,7 @@
       "type": "Feature",
       "properties": {
         "ID": 86,
-        "Provincia": "C�rdoba",
+        "Provincia": "Córdoba",
         "Localidad": "Cerro Leones",
         "Latitud": -32.6714,
         "Longitud": -62.3149,
@@ -1032,7 +1032,7 @@
       "properties": {
         "ID": 223,
         "Provincia": "San Juan",
-        "Localidad": "San Jos� de Jachal",
+        "Localidad": "San José de Jachal",
         "Latitud": -30.1718,
         "Longitud": -68.7151,
         "Altura_snm": 76.9,
@@ -1070,12 +1070,12 @@
       "type": "Feature",
       "properties": {
         "ID": 230,
-        "Provincia": "Neuqu�n",
-        "Localidad": "Neuqu�n",
+        "Provincia": "Neuquén",
+        "Localidad": "Neuquén",
         "Latitud": -38.9386,
         "Longitud": -68.0554,
         "Altura_snm": 48.75,
-        "Sitio": "Neuqu�n"
+        "Sitio": "Neuquén"
       },
       "geometry": null
     },
@@ -1162,11 +1162,11 @@
       "properties": {
         "ID": 261,
         "Provincia": "Santa Cruz",
-        "Localidad": "Puerto San Juli�n",
+        "Localidad": "Puerto San Julián",
         "Latitud": -49.3118,
         "Longitud": -67.7453,
         "Altura_snm": 40.9,
-        "Sitio": "Puerto San Juli�n"
+        "Sitio": "Puerto San Julián"
       },
       "geometry": null
     },
@@ -1240,11 +1240,11 @@
       "properties": {
         "ID": 52,
         "Provincia": "Buenos Aires",
-        "Localidad": "Pehuaj�",
+        "Localidad": "Pehuajó",
         "Latitud": -35.80706124,
         "Longitud": -61.88532721,
         "Altura_snm": 76.9,
-        "Sitio": "Pehuaj�"
+        "Sitio": "Pehuajó"
       },
       "geometry": null
     },
@@ -1278,12 +1278,12 @@
       "type": "Feature",
       "properties": {
         "ID": 89,
-        "Provincia": "C�rdoba",
-        "Localidad": "Villa Mar�a",
+        "Provincia": "Córdoba",
+        "Localidad": "Villa María",
         "Latitud": -32.4654,
         "Longitud": -63.1925,
         "Altura_snm": 150.75,
-        "Sitio": "Villa Mar�a"
+        "Sitio": "Villa María"
       },
       "geometry": null
     },
@@ -1292,11 +1292,11 @@
       "properties": {
         "ID": 201,
         "Provincia": "Santiago del Estero",
-        "Localidad": "A�atuya",
+        "Localidad": "Añatuya",
         "Latitud": -28.4551,
         "Longitud": -62.8431,
         "Altura_snm": 76.9,
-        "Sitio": "A�atuya"
+        "Sitio": "Añatuya"
       },
       "geometry": null
     },
@@ -1305,11 +1305,11 @@
       "properties": {
         "ID": 160,
         "Provincia": "Corrientes",
-        "Localidad": "Santo Tom�",
+        "Localidad": "Santo Tomé",
         "Latitud": -28.5865,
         "Longitud": -56.0419,
         "Altura_snm": 145.5,
-        "Sitio": "Santo Tom� - Corrientes"
+        "Sitio": "Santo Tomé - Corrientes"
       },
       "geometry": null
     },
@@ -1322,7 +1322,7 @@
         "Latitud": -34.6122420748,
         "Longitud": -58.3814664316,
         "Altura_snm": 155,
-        "Sitio": "Ministerio de Obras P�blicas"
+        "Sitio": "Ministerio de Obras Públicas"
       },
       "geometry": null
     },
@@ -1330,12 +1330,12 @@
       "type": "Feature",
       "properties": {
         "ID": 88,
-        "Provincia": "C�rdoba",
-        "Localidad": "R�o Tercero",
+        "Provincia": "Córdoba",
+        "Localidad": "Río Tercero",
         "Latitud": -32.1468,
         "Longitud": -64.1474,
         "Altura_snm": 76.9,
-        "Sitio": "R�o Tercero"
+        "Sitio": "Río Tercero"
       },
       "geometry": null
     },
@@ -1374,7 +1374,7 @@
         "Latitud": -36.3792,
         "Longitud": -56.7453,
         "Altura_snm": 148.9,
-        "Sitio": "San Clemente del Tuy�"
+        "Sitio": "San Clemente del Tuyú"
       },
       "geometry": null
     },
@@ -1382,7 +1382,7 @@
       "type": "Feature",
       "properties": {
         "ID": 225,
-        "Provincia": "C�rdoba",
+        "Provincia": "Córdoba",
         "Localidad": "Villa Dolores",
         "Latitud": -31.9789,
         "Longitud": -65.2346,
@@ -1408,7 +1408,7 @@
       "type": "Feature",
       "properties": {
         "ID": 233,
-        "Provincia": "R�o Negro",
+        "Provincia": "Río Negro",
         "Localidad": "Mainque",
         "Latitud": -39.0302,
         "Longitud": -67.2748,
@@ -1421,7 +1421,7 @@
       "type": "Feature",
       "properties": {
         "ID": 235,
-        "Provincia": "R�o Negro",
+        "Provincia": "Río Negro",
         "Localidad": "San Antonio Oeste",
         "Latitud": -40.707,
         "Longitud": -64.9258,
@@ -1434,7 +1434,7 @@
       "type": "Feature",
       "properties": {
         "ID": 236,
-        "Provincia": "R�o Negro",
+        "Provincia": "Río Negro",
         "Localidad": "Viedma",
         "Latitud": -40.7934,
         "Longitud": -63.0523,
@@ -1447,7 +1447,7 @@
       "type": "Feature",
       "properties": {
         "ID": 246,
-        "Provincia": "R�o Negro",
+        "Provincia": "Río Negro",
         "Localidad": "San Carlos de Bariloche",
         "Latitud": -41.1342,
         "Longitud": -71.2763,
@@ -1474,11 +1474,11 @@
       "properties": {
         "ID": 262,
         "Provincia": "Santa Cruz",
-        "Localidad": "R�o Gallegos",
+        "Localidad": "Río Gallegos",
         "Latitud": -51.6701,
         "Longitud": -69.2317,
         "Altura_snm": 42.75,
-        "Sitio": "R�o Gallegos"
+        "Sitio": "Río Gallegos"
       },
       "geometry": null
     },
@@ -1486,12 +1486,12 @@
       "type": "Feature",
       "properties": {
         "ID": 266,
-        "Provincia": "C�rdoba",
-        "Localidad": "R�o Cuarto",
+        "Provincia": "Córdoba",
+        "Localidad": "Río Cuarto",
         "Latitud": -33.106473248,
         "Longitud": -64.3868267452,
         "Altura_snm": 33,
-        "Sitio": "R�o Cuarto"
+        "Sitio": "Río Cuarto"
       },
       "geometry": null
     },
@@ -1500,11 +1500,11 @@
       "properties": {
         "ID": 301,
         "Provincia": "Santa Cruz",
-        "Localidad": "R�o Turbio",
+        "Localidad": "Río Turbio",
         "Latitud": -51.537017,
         "Longitud": -72.348056,
         "Altura_snm": 0,
-        "Sitio": "R�o Turbio"
+        "Sitio": "Río Turbio"
       },
       "geometry": null
     }

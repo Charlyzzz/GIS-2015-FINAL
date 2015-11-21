@@ -1,5 +1,11 @@
 # coding utf-8
-from etl import edts
+from pymongo import MongoClient
+
+connection = MongoClient()
+
+db = connection.gis
+
+edts = db.edts
 
 
 def list_edts():
@@ -8,7 +14,7 @@ def list_edts():
 
 def closest_edt(latitude, longuitude):
     query = {'ubicacion': {'$near': {'$geometry': {' type': 'Point',
-                                                   'coordinates': [longuitude, latitude]
+                                                   'coordinates': [float(longuitude), float(latitude)]
                                                    }}}}
 
     edts_by_distance = edts.find(query).limit(1)
