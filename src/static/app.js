@@ -2,7 +2,7 @@
  * Created by Erwin on 19/11/2015.
  */
 
-var app = angular.module('gisApp', ['uiGmapgoogle-maps']).config([
+var app = angular.module('gisApp', ['uiGmapgoogle-maps', 'ui.bootstrap']).config([
     'uiGmapGoogleMapApiProvider', function (GoogleMapApiProviders) {
         GoogleMapApiProviders.configure({
             argentina: true,

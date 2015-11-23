@@ -1,6 +1,6 @@
 # coding utf-8
 
-from pymongo import MongoClient, GEOSPHERE
+from pymongo import MongoClient, GEOSPHERE, ASCENDING
 
 connection = MongoClient()
 
@@ -29,8 +29,10 @@ def extract_and_transform_data():
         map(edt.pop, ['latitud', 'longitud'])
         edts.save(edt)
 
-        if not 'ubicacion' + GEOSPHERE in edts.list_indexes():
-            edts.create_index([('ubicacion', GEOSPHERE)])
+        edts.create_index([('ubicacion', GEOSPHERE)])
+        edts.create_index([('provincia', ASCENDING)])
+        edts.create_index([('sitio', ASCENDING)])
+        edts.create_index([('localidad', ASCENDING)])
 
 
 extract_and_transform_data()

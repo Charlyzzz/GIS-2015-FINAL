@@ -1,10 +1,227 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" ng-app="gisApp">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>GIS UTN 2015</title>
+
+    <link rel="icon" type="image/png" href="../static/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="../static/favicon-16x16.png" sizes="16x16"/>
+
+
+    <script src="../node_modules/lodash/index.js"></script>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
+    <script src="../node_modules/angular-google-maps/dist/angular-google-maps.js"></script>
+    <script src="../node_modules/angular-ui-bootstrap/ui-bootstrap.js"></script>
+    <script src="../node_modules/angular-ui-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="../static/app.js"></script>
+    <script src="../static/controller.js"></script>
+    <script src="../static/service.js"></script>
+
+
+    <link href="../static/style.css" rel="stylesheet" type="text/css">
+
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
+<div class="row">
+    <ul class="nav nav-tabs col-lg-10 col-lg-push-1">
+        <li role="presentation"><a target="_self" href="/localizar">Localizar</a></li>
+        <li class="active" role="presentation"><a target="_self" href="/administrar">Administrar</a></li>
+        <li class="col-lg-2 col-lg-offset-8" role="presentation"><a>UTN FRBA 2015-2C-GIS</a></li>
+    </ul>
+</div>
+
+<div class="container-fluid col-lg-8 col-lg-offset-2" ng-controller="abmController">
+
+    <script type="text/ng-template" id="editModal.html">
+
+        <div class="modal-header">
+            <h3 class="modal-title">Modificar</h3>
+        </div>
+
+        <p></p>
+        <div class="input-group col-md-5 col-md-offset-1">
+            <span class="input-group-addon">Sitio</span>
+            <input type="text" name="sitio" class="form-control" placeholder="Ej: Palacio de justicia"
+                   ng-model="sitio"
+                   aria-describedby="sizing-addon1">
+
+        </div>
+        <p></p>
+        <div class="input-group col-md-5 col-md-offset-1">
+            <span class="input-group-addon">Localidad</span>
+            <input type="text" name="sitio" class="form-control" placeholder="Ej: Tigre"
+                   ng-model="localidad"
+                   aria-describedby="sizing-addon1">
+
+        </div>
+        <p></p>
+        <div class="input-group col-md-5 col-md-offset-1 ">
+            <span class="input-group-addon">Provincia</span>
+            <input type="text" name="sitio" class="form-control" placeholder="Ej: Buenos Aires"
+                   ng-model="provincia"
+                   aria-describedby="sizing-addon1">
+
+        </div>
+        <p></p>
+        <div class="input-group col-md-5 col-md-offset-1">
+            <span class="input-group-addon">Altura</span>
+            <input type="text" name="sitio" class="form-control" placeholder="Ej: 10 (m)"
+                   ng-model="altura"
+                   aria-describedby="sizing-addon1">
+
+        </div>
+        <p></p>
+        <div class="input-group col-md-5 col-md-offset-1">
+            <span class="input-group-addon">Latitud</span>
+            <input type="text" name="sitio" class="form-control" placeholder="Ej: -34 (grados)"
+                   ng-model="lat"
+                   aria-describedby="sizing-addon1">
+
+        </div>
+        <p></p>
+        <div class="input-group col-md-5 col-md-offset-1">
+            <span class="input-group-addon">Longitud</span>
+            <input type="text" name="sitio" class="form-control" placeholder="Ej: -58 (grados)"
+                   ng-model="lng"
+                   aria-describedby="sizing-addon1">
+
+        </div>
+        <p></p>
+
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+            <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+        </div>
+    </script>
+
+    <script type="text/ng-template" id="deleteModal.html">
+        <div class="modal-header">
+            <h3 class="modal-title">Borrar</h3>
+        </div>
+
+        <p></p>
+        <div class="row col-md-offset-1">
+            <span>Desea borrar la estacion</span>
+        </div>
+
+
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+            <button class="btn btn-warning" type="button" ng-click="cancel()">Cancelar</button>
+        </div>
+    </script>
+
+    <div class="jumbotron" style="margin-bottom: 0px;">
+
+
+        <div class="row" id="inputs">
+
+
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="input-group ">
+                        <span class="input-group-addon" id="sizing-addon1">Sitio</span>
+                        <input type="text" name="sitio" class="form-control" placeholder="Ej: Tecnopolis"
+                               ng-model="query.sitio"
+                               aria-describedby="sizing-addon1">
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-offset-10">
+
+                    <button class="btn btn-default" ng- ng-click="search()">
+                        Buscar
+                    </button>
+
+                </div>
+                <p></p>
+
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Localidad</span>
+                        <input type="text" class="form-control" placeholder="Ej: Belgrano"
+                               ng-model="query.localidad" name="localidad"
+                               aria-describedby="sizing-addon2">
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="col-md-offset-10">
+
+                    <button class="btn btn-default" ng- ng-click="create()">
+                        Nueva EDT
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+
+                <div class="col-lg-4">
+
+                    <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon3">Provincia</span>
+                        <input type="text" class="form-control" placeholder="Ej: Buenos Aires"
+                               ng-model="query.provincia" name="provincia"
+                               aria-describedby="sizing-addon3">
+                    </div>
+                    <p></p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="row" id="tabla">
+
+            <div class="span6">
+                <p></p>
+
+                <table class="table table-striped table-condensed">
+                    <thead>
+                    <tr>
+                        <th style="min-width: 80px;">Sitio</th>
+                        <th style="min-width: 80px;">Localidad</th>
+                        <th style="min-width: 80px;">Provincia</th>
+                        <th style="width:20px;"></th>
+                        <th style="width:20px;"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="edt in edts">
+                        <td>{{ edt.sitio }}</td>
+                        <td>{{ edt.localidad }}</td>
+                        <td>{{ edt.provincia }}</td>
+                        <td><a ng-click="edit(edt)" class="btn btn-small btn-primary">Editar</a></td>
+                        <td><a ng-click="delete(edt)" class="btn btn-small btn-danger">Borrar</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <a ng-click="createNewUser()" class="btn btn-small">Nueva EDT</a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
 
 </body>
+
 </html>

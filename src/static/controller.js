@@ -8,6 +8,7 @@ var gisController = app.controller('gisController', function ($scope, gisService
     $scope.distance = 0;
     $scope.hideProgress = true;
     $scope.progressClass = "progress-bar progress-bar-success progress-bar-striped ";
+
     $scope.getClosestEdt = function (lat, lng) {
 
         gisService.closest_edt(lat, lng).then(function (response) {
@@ -223,4 +224,142 @@ var gisController = app.controller('gisController', function ($scope, gisService
 
     }
 
+});
+
+var abmController = app.controller('abmController', function ($scope, gisService, $uibModal) {
+
+    $scope.edts = [];
+    $scope.query = {sitio: '', localidad: '', provincia: ''};
+
+    $scope.search = function () {
+        gisService.edts($scope.query.sitio + ',' + $scope.query.localidad + ',' + $scope.query.provincia).then(function (response) {
+            $scope.edts = response.data;
+        })
+    };
+
+    $scope.edit = function (edt) {
+
+
+        var modalInstance = $uibModal.open({
+            animation: true,
+            templateUrl: 'editModal.html',
+            controller: 'ModalInstanceCtrl',
+            resolve: {
+                edt: function () {
+                    return edt;
+                }
+            }
+        });
+
+        modalInstance.result.then(function (foo) {
+
+            gisService.updateOrInsert(edt);
+
+        }, function () {
+        });
+    };
+
+    $scope.delete = function (edt) {
+
+
+        var modalInstance = $uibModal.open({
+            animation: true,
+            templateUrl: 'deleteModal.html',
+            controller: 'DeleteModalInstanceCtrl',
+            size: 'sm',
+            resolve: {
+                edt: function () {
+                    return edt;
+                }
+            }
+        });
+
+        modalInstance.result.then(function (foo) {
+
+            gisService.delete(edt);
+            var index = $scope.edts.indexOf(edt);
+            $scope.edts.splice(index, 1);
+
+        }, function () {
+        });
+    };
+
+    $scope.create = function (edt) {
+
+        var nuevaEdt = {
+            localidad: '',
+            sitio: '',
+            altura: 0,
+            provincia: '',
+            ubicacion: {type: 'Point', coordinates: [0, 0]}
+        };
+
+        var modalInstance = $uibModal.open({
+            animation: true,
+            templateUrl: 'editModal.html',
+            controller: 'ModalInstanceCtrl',
+            resolve: {
+                edt: function () {
+                    return nuevaEdt;
+                }
+            }
+        });
+
+        modalInstance.result.then(function (edtModificada) {
+
+            gisService.updateOrInsert(edtModificada);
+            $scope.edts.unshift(edtModificada);
+
+        }, function () {
+        });
+    };
+
+    gisService.edts($scope.query.sitio + ',' + $scope.query.localidad + ',' + $scope.query.provincia).then(function (response) {
+        $scope.edts = response.data;
+    });
+
+});
+
+var modalController = app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, edt) {
+
+
+    $scope.sitio = edt.sitio;
+    $scope.localidad = edt.localidad;
+    $scope.provincia = edt.provincia;
+    $scope.altura = edt.altura_snm;
+    $scope.lat = edt.ubicacion.coordinates[1];
+    $scope.lng = edt.ubicacion.coordinates[0];
+
+
+    $scope.ok = function () {
+
+
+        edt.sitio = $scope.sitio;
+        edt.localidad = $scope.localidad;
+        edt.provincia = $scope.provincia;
+        edt.altura_snm = $scope.altura;
+        edt.ubicacion.coordinates[1] = $scope.lat;
+        edt.ubicacion.coordinates[0] = $scope.lng;
+
+        $uibModalInstance.close(edt);
+
+
+    };
+
+    $scope.cancel = function () {
+        $uibModalInstance.dismiss('cancel');
+    };
+
+});
+
+var modalControllerDelete = app.controller('DeleteModalInstanceCtrl', function ($scope, $uibModalInstance, edt) {
+
+
+    $scope.ok = function () {
+        $uibModalInstance.close(2);
+    };
+
+    $scope.cancel = function () {
+        $uibModalInstance.dismiss('cancel');
+    };
 });

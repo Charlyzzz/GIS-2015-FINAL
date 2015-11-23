@@ -1,10 +1,10 @@
 from cgi import escape
 
-from bottle import static_file, run, get
+from bottle import static_file, run, get, post, request
 from bson.json_util import dumps
 from mako.lookup import TemplateLookup
 
-from edts import closest_edt, list_edts
+from edts import closest_edt, list_edts, update_or_insert_edt, remove_edt
 
 
 @get('/')
@@ -23,9 +23,21 @@ def get_closest_edt(latitud, longitud):
     return to_json_response(closest_edt(latitud, longitud))
 
 
-@get('/edts')
-def get_edts_list():
-    return to_json_response(list_edts())
+@get('/edts/<params>')
+def get_edts_list(params):
+    return to_json_response(list_edts(params))
+
+
+@post('/edt')
+def update_or_insert():
+    edt = request.json
+    update_or_insert_edt(edt)
+
+
+@post('/edt/delete')
+def delete_edt():
+    edt = request.json
+    remove_edt(edt)
 
 
 # region wrappers de requests
@@ -70,6 +82,11 @@ def serve_static_files(filename):
 @get('/node_modules/bootstrap/dist/css/<filename>')
 def serve_static_files(filename):
     return static_file(filename, root='./node_modules/bootstrap/dist/css/')
+
+
+@get('/node_modules/angular-ui-bootstrap/<filename>')
+def serve_static_files(filename):
+    return static_file(filename, root='./node_modules/angular-ui-bootstrap/')
 
 
 # endregion
