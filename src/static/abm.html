@@ -26,10 +26,14 @@
 </head>
 <body>
 <div class="row">
-    <ul class="nav nav-tabs col-lg-10 col-lg-push-1">
+    <ul class="nav nav-tabs col-lg-5 col-lg-offset-1">
         <li role="presentation"><a target="_self" href="/localizar">Localizar</a></li>
-        <li class="active" role="presentation"><a target="_self" href="/administrar">Administrar</a></li>
-        <li class="col-lg-2 col-lg-offset-8" role="presentation"><a>UTN FRBA 2015-2C-GIS</a></li>
+        <li role="presentation" class="active" role="presentation"><a target="_self" href="/administrar">Administrar</a>
+        </li>
+        <li role="presentation" role="presentation">
+    </ul>
+    <ul class="nav navbar-nav navbar-right col-lg-2 col-lg-offset-3">
+        <li role="presentation"><a>UTN FRBA 2015-2C-GIS</a></li>
     </ul>
 </div>
 
@@ -42,7 +46,7 @@
         </div>
 
         <p></p>
-        <div class="input-group col-md-5 col-md-offset-1">
+        <div class="input-group col-lg-5 col-lg-offset-1">
             <span class="input-group-addon">Sitio</span>
             <input type="text" name="sitio" class="form-control" placeholder="Ej: Palacio de justicia"
                    ng-model="sitio"
@@ -50,7 +54,7 @@
 
         </div>
         <p></p>
-        <div class="input-group col-md-5 col-md-offset-1">
+        <div class="input-group col-lg-5 col-lg-offset-1">
             <span class="input-group-addon">Localidad</span>
             <input type="text" name="sitio" class="form-control" placeholder="Ej: Tigre"
                    ng-model="localidad"
@@ -58,7 +62,7 @@
 
         </div>
         <p></p>
-        <div class="input-group col-md-5 col-md-offset-1 ">
+        <div class="input-group col-lg-5 col-lg-offset-1 ">
             <span class="input-group-addon">Provincia</span>
             <input type="text" name="sitio" class="form-control" placeholder="Ej: Buenos Aires"
                    ng-model="provincia"
@@ -66,7 +70,7 @@
 
         </div>
         <p></p>
-        <div class="input-group col-md-5 col-md-offset-1">
+        <div class="input-group col-lg-5 col-lg-offset-1">
             <span class="input-group-addon">Altura</span>
             <input type="text" name="sitio" class="form-control" placeholder="Ej: 10 (m)"
                    ng-model="altura"
@@ -74,7 +78,7 @@
 
         </div>
         <p></p>
-        <div class="input-group col-md-5 col-md-offset-1">
+        <div class="input-group col-lg-5 col-lg-offset-1">
             <span class="input-group-addon">Latitud</span>
             <input type="text" name="sitio" class="form-control" placeholder="Ej: -34 (grados)"
                    ng-model="lat"
@@ -82,7 +86,7 @@
 
         </div>
         <p></p>
-        <div class="input-group col-md-5 col-md-offset-1">
+        <div class="input-group col-lg-5 col-lg-offset-1">
             <span class="input-group-addon">Longitud</span>
             <input type="text" name="sitio" class="form-control" placeholder="Ej: -58 (grados)"
                    ng-model="lng"
@@ -103,9 +107,10 @@
         </div>
 
         <p></p>
-        <div class="row col-md-offset-1">
-            <span>Desea borrar la estacion</span>
+        <div class="row col-lg-offset-1">
+            <span>Desea borrar la estacion?</span>
         </div>
+        <p></p>
 
 
         <div class="modal-footer">
@@ -133,7 +138,7 @@
 
                 </div>
 
-                <div class="col-md-offset-10">
+                <div class="col-lg-offset-10">
 
                     <button class="btn btn-default" ng- ng-click="search()">
                         Buscar
@@ -157,7 +162,7 @@
                     <p></p>
                 </div>
 
-                <div class="col-md-offset-10">
+                <div class="col-lg-offset-10">
 
                     <button class="btn btn-default" ng- ng-click="create()">
                         Nueva EDT
@@ -211,7 +216,6 @@
                     </tr>
                     </tbody>
                 </table>
-                <a ng-click="createNewUser()" class="btn btn-small">Nueva EDT</a>
             </div>
 
         </div>

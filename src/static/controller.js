@@ -284,7 +284,7 @@ var abmController = app.controller('abmController', function ($scope, gisService
         });
     };
 
-    $scope.create = function (edt) {
+    $scope.create = function () {
 
         var nuevaEdt = {
             localidad: '',

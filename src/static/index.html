@@ -24,17 +24,20 @@
 </head>
 <body>
 <div class="row">
-    <ul class="nav nav-tabs col-lg-10 col-lg-push-1">
+    <ul class="nav nav-tabs col-lg-5 col-lg-offset-1">
         <li role="presentation" class="active"><a target="_self" href="/localizar">Localizar</a></li>
         <li role="presentation" role="presentation"><a target="_self" href="/administrar">Administrar</a></li>
-        <li class="col-lg-2 col-lg-offset-8" role="presentation"><a>UTN FRBA 2015-2C-GIS</a></li>
+        <li role="presentation" role="presentation">
+    </ul>
+    <ul class="nav navbar-nav navbar-right col-lg-2 col-lg-offset-3">
+        <li role="presentation"><a>UTN FRBA 2015-2C-GIS</a></li>
     </ul>
 </div>
 
 <div class="container-fluid col-lg-8 col-lg-offset-2" ng-controller="gisController">
 
 
-    <div class="jumbotron" style="margin-bottom: 0px;">
+    <div class="jumbotron" style="margin-bottom: 0px; padding-top: 15px;">
         <div class="row">
             <div class="col-lg-12">
                 <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="map.options"
@@ -63,7 +66,8 @@
                 <div class="progress animate-hide" ng-hide="hideProgress" style="height: 84px;">
                     <div class={{progressClass}} role="progressbar" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="width: 100%; display: table;">
-                        <span class="miSpan">CALIDAD DE RECEPCION</span>
+                        <span class="miSpan" style="display: table-cell;
+                        vertical-align: middle;">CALIDAD DE RECEPCION</span>
                     </div>
                 </div>
 
