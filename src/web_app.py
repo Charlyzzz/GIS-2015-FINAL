@@ -1,10 +1,10 @@
 from cgi import escape
 
-from bottle import static_file, run, get, post, request
+from bottle import static_file, run, get
 from bson.json_util import dumps
 from mako.lookup import TemplateLookup
 
-from edts import closest_edt, list_edts, update_or_insert_edt, remove_edt
+from edts import closest_edt, list_edts
 
 
 @get('/')
@@ -13,9 +13,9 @@ def index():
     return template('index.html')
 
 
-@get('/administrar')
-def index():
-    return template('abm.html')
+# @get('/administrar')
+# def index():
+#     return template('abm.html')
 
 
 @get('/closest_edt/<latitud>/<longitud>')
@@ -28,16 +28,16 @@ def get_edts_list(params):
     return to_json_response(list_edts(params))
 
 
-@post('/edt')
-def update_or_insert():
-    edt = request.json
-    update_or_insert_edt(edt)
-
-
-@post('/edt/delete')
-def delete_edt():
-    edt = request.json
-    remove_edt(edt)
+# @post('/edt')
+# def update_or_insert():
+#     edt = request.json
+#     update_or_insert_edt(edt)
+#
+#
+# @post('/edt/delete')
+# def delete_edt():
+#     edt = request.json
+#     remove_edt(edt)
 
 
 # region wrappers de requests
@@ -91,4 +91,4 @@ def serve_static_files(filename):
 
 # endregion
 
-run(reloader=True)
+run(host='10.0.1.5', reloader=True)
